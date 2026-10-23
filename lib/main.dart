@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'screens/parametres_screen.dart';
 import 'screens/catalogue_screen.dart';
+import 'screens/ma_liste_screen.dart';
 
 void main() {
   runApp(const MaBiblioApp());
@@ -15,7 +16,7 @@ class MaBiblioApp extends StatelessWidget {
       title: 'MaBiblio',
       debugShowCheckedModeBanner: false,
       theme: ThemeData(useMaterial3: true),
-      home: const CatalogueScreen(),
+      home: const MaListeScreen(),
     );
   }
 }
